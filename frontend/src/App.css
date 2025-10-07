@@ -1,0 +1,81 @@
+body {
+  background-color: #ffe6f2;
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: 3rem center;
+  
+  background-color: #fff0f6;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+  padding: 9rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  color: #ff69b4;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px #ffcce0;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.input::placeholder {
+  color: #ff99cc;
+}
+
+.button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff85c1;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #ffe6f2;
+  margin-bottom: 0.6rem;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #ffb6c1;
+  box-shadow: 0 2px 5px rgba(255, 182, 193, 0.3);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+  background-color: #ffd6ea;
+}
